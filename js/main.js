@@ -4,7 +4,6 @@ let output = [];
 for(let i = 0; i < users.length; i++){
         let input = prompt(users[i]);
         output.push(input);
-        alert(`${users[i]} ${input}`);
+        alert(`" ${output} "`);
         console.log(`${users[i]} ${input}`);
 }
-alert(`" ${output} "`); 
